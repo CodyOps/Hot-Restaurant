@@ -13,7 +13,25 @@ const PORT = process.env.port || 3000;
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
-
+//VARIABLES
+//Reservation data
+const reservation = [
+    {
+        name: 'John Smith',
+        phoneNumber: 123-456-7890,
+        email: 'jsmith@email.com',
+        uniqueID: 1234,
+    }
+];
+//Waitlist data
+const waitlist = [
+    {
+        name: 'Mary Jones',
+        phoneNumber: 456-789-0123,
+        email: 'jonesy@yahoo.com',
+        uniqueID: 23,
+    }
+];
 
 //ROUTES
 //route to home page
