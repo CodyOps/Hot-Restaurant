@@ -16,4 +16,4 @@ app.use(express.json());
 
 
 //ROUTES
-app.get('/', (req, res) => res.sendFile(path.join(__dirname, 'view.html')));
+app.get('/', (req, res) => res.sendFile(path.join(__dirname, 'home.html')));
